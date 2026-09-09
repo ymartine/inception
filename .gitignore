@@ -1,0 +1,17 @@
+# Secrets — never commit
+.env
+*.env
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Docker persistent volumes
+data/
+volumes/
+
+# Build artifacts and system noise
+*.o
+a.out
+.DS_Store
+*.log
